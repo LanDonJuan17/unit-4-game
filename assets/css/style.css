@@ -1,9 +1,14 @@
 #fighters{
-	display: table;
-	clear: both;
+
+	
 	width: 1000px;
     margin: 0 auto 0 auto;
-    display: inline-block;
+	display: inline-block;
+	column-count: 4;
+	column-width: 0;
+	column-gap: 0;
+	column-span: none;
+
 
 }
 
@@ -16,7 +21,7 @@
 	width: 100px;
 	height:100px;
 	object-fit: contain;
-
+	background-color: gold;
 	max-height: 100px;
 	max-width: 100px;
 	position: relative;
@@ -30,9 +35,10 @@
 	width: 100px;
 	height:200px;
 	object-fit: contain;
-
+	background-color: gold;
 max-height: 100px;
 	max-width: 100px;
+	position: relative;
 	
 }
 #anakin{
@@ -44,7 +50,7 @@ max-height: 100px;
 	width: 100px;
 	height:100px;
 	object-fit: contain;
-	
+	background-color: gold;
 	max-height: 100px;
 	max-width: 100px;
 	position: relative;
@@ -52,6 +58,7 @@ max-height: 100px;
 #darthmaul{
 	border: 1px solid #ddd;
 	border-radius: 4px;
+	background-color: gold;
 	padding: 15px;
 	width: 150px;
 	padding: 15px;
@@ -61,11 +68,16 @@ max-height: 100px;
 	
 	max-height: 100px;
 	max-width: 100px;
-	position: absolute;
+	position: relative;
 }
 .flex-container{
 	display: flex;
-	width: 1000px;
+	width: 1200px;
     margin: 0 auto 0 auto;
     display: inline-block;
+}
+header{
+	color: rgb(255, 153, 0);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
