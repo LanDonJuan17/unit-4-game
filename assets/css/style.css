@@ -1,83 +1,42 @@
-#fighters{
 
-	
-	width: 1000px;
-    margin: 0 auto 0 auto;
-	display: inline-block;
-	column-count: 4;
-	column-width: 0;
-	column-gap: 0;
-	column-span: none;
-
-
-}
-
-#yoda{
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	padding: 15px;
-	width: 150px;
-	padding: 15px;
-	width: 100px;
-	height:100px;
-	object-fit: contain;
-	background-color: gold;
-	max-height: 100px;
-	max-width: 100px;
-	position: relative;
-}
-#macewindu{
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	padding: 15px;
-	width: 150px;
-	padding: 15px;
-	width: 100px;
-	height:200px;
-	object-fit: contain;
-	background-color: gold;
-max-height: 100px;
-	max-width: 100px;
-	position: relative;
-	
-}
-#anakin{
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	padding: 15px;
-	width: 150px;
-	padding: 15px;
-	width: 100px;
-	height:100px;
-	object-fit: contain;
-	background-color: gold;
-	max-height: 100px;
-	max-width: 100px;
-	position: relative;
-}
-#darthmaul{
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	background-color: gold;
-	padding: 15px;
-	width: 150px;
-	padding: 15px;
-	width: 100px;
-	height:100px;
-	
-	
-	max-height: 100px;
-	max-width: 100px;
-	position: relative;
-}
-.flex-container{
-	display: flex;
-	width: 1200px;
-    margin: 0 auto 0 auto;
-    display: inline-block;
-}
 header{
 	color: rgb(255, 153, 0);
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font:'Star Jedi', arial;;
 
+}
+
+	
+	body {
+		color: whitesmoke !important;
+		background-color: black;
+		background-image: url("assets/images/swbackground.jpg");
+		background-position: center;
+		background-size: 1300px;
+		background-repeat: no-repeat;
+		
+		font-size: 1.1em !important;
+		font-family: 'Rubik Mono One', sans-serif;;
+align-content: center
+	}
+	.img-fluid{
+		width: 1296px;
+		clear: auto;
+	}
+	.shadow {
+		text-shadow: 2px 1px 4px rgb(0, 0, 0);
+	}
+	
+	#firstScreen {
+		min-height: 100%;
+		position: absolute;
+		text-align: center;
+		padding-top: 5%;
+		color: whitesmoke;
+		align-content: center;
+	}
+	
+	.ctr {
+		margin: 0 auto !important;
+		text-align: center;
+	}
 }
