@@ -38,10 +38,10 @@ Character.prototype.counterAttack = function (Obj) {
 
 
 function initCharacters() {
-    var yoda = new Character("Master Yoda", 100, 10, 5, "./assets/images/yoda.jpg");
-    var macewindu = new Character("Mace Windu", 200, 50, 30, "./assets/images/macewindu.jpg");
-    var anakin = new Character("Anakin Skywalker", 150, 15, 2, "./assets/images/anakin.jpg");
-    var darthmaul = new Character("Darth Maul", 180, 30, 12, "./assets/images/darthmaul.jpg");
+    var yoda = new Character("Master Yoda", 155, 20, 15, "./assets/images/yoda.jpg");
+    var macewindu = new Character("Mace Windu", 165, 15, 20, "./assets/images/macewindu.jpg");
+    var anakin = new Character("Anakin Skywalker", 160, 15, 25, "./assets/images/anakin.jpg");
+    var darthmaul = new Character("Darth Maul", 170, 20, 15, "./assets/images/darthmaul.jpg");
     charArray.push(yoda, macewindu, anakin, darthmaul);
 }
 
@@ -163,7 +163,7 @@ $(document).on("click", "#attackBtn", function () {
             $("#defenderHealthDiv").html("HP: " + defender.healthPoints);
             if (!isAlive(defender)) {
                 $("#defenderHealthDiv").html("DEFEATED!");
-                $("#playerHealthDiv").html("Enemy defeated!");
+                $("#playerHealthDiv").html("HP: " + player.healthPoints);
                 $("#msg").html("Choose your next opponent!");
             }
             if (!isAlive(player)) {
