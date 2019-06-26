@@ -98,7 +98,7 @@ function updatePics(fromDivID, toDivID) {
 
 
 function playAudio() {
-    var audio = new Audio("assets/media/Star Wars Theme Song by John Williams.mp3");
+    var audio = new Audio("assets/media/Star Wars Theme Song By John Williams.mp3");
     audio.play();
 }
 
